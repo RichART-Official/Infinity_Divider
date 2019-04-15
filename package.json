@@ -1,0 +1,21 @@
+{
+  "name": "Infinity-dividing-website",
+  "version": "1.0.0",
+  "description": "concept yorben",
+  "main": "src/index.html",
+  "repository": "https://github.com/RichART-Official/Infinity_Divider.git",
+  "author": "Richard van 't Hof <richardvanthof@pm.me>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "nodemon server/server",
+    "build": "babel src -d lib"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.0.0"
+  }
+}
