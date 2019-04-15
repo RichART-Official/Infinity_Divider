@@ -10,14 +10,34 @@ body {
     grid-template-rows: 10rem 10rem 10rem 10rem 10rem 10rem;
  }
 
+ img {
+     height: 100%;
+ }
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-2rem);
+    }
+    60% {
+        opacity: 0;
+        transform: translateY(-2rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
  .content {
     background: white;
     overflow: hidden;
+    animation: fadeIn 1s;
  }
 
  .bg {
      font-size: 20rem;
-     position: fixed;
+     position: absolute;
      z-index: -10;
      color: rgba(0,0,0,0.05);
      transform: skew(20deg) scale(1.5);
