@@ -1,5 +1,5 @@
 // Data objects. All content (for now) is beain loaded from this object. Maybe later on content can be loaded in via JSON.
-const data = {
+const Data = {
     item1: {
         img: 'static/img/1.jpg',
         title: 'hello',
@@ -22,6 +22,8 @@ const data = {
         img: 'static/img/4.jpg',
         title: 'item3',
         description: 'Lorem ipsum dolor sit amet item3',
-        url: '#3'
+        url: '#4'
     }
-}
+};
+
+export default Data;

@@ -48,3 +48,5 @@ class Thumbnail {
         this.element.style.gridRowEnd = this.h;
     }
 };
+
+export default Thumbnail;
