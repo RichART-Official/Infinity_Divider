@@ -1,10 +1,13 @@
 //Defines The thumbnail
 class Thumbnail {
     constructor(img, title, description, url){
+        // Contents
         this.img = img;
         this.title = title;
         this.description = description;
         this.url = url;
+
+        // Position
         this.x;
         this.y;
         this.w;
