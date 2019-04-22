@@ -8,11 +8,11 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "dev": "nodemon server/server",
-    "build": "babel src -d lib"
+    "start": "hrs src"
   },
   "devDependencies": {
-    "nodemon": "^1.18.11"
+    "nodemon": "^1.18.11",
+    "simple-hot-reload-server": "^1.2.0"
   },
   "dependencies": {
     "@babel/cli": "^7.4.3",
