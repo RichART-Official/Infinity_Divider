@@ -43,6 +43,8 @@ class Thumbnail {
         this.w = generateSize(this.x);
         this.h = generateSize(this.y);
 
+        console.log(this.x, this.y, this.w, this.h);
+
         // Add CSS for size and witdth to element
         this.element.style.gridColumnStart = this.x;
         this.element.style.gridRowStart = this.y;
